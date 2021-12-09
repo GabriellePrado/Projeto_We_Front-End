@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css//slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Home</title>
+    <!-- arquivos, metadados-->
+</head>
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div class="menu-header">
+                <div class="logo">
+                    <img src="../img/logo.png" />
+                </div>
+                <div class="redes-sociais">
+                    <ul>
+                        <li><a href=""><img src="../img/Facebook.png" /></a></li>
+                        <li><a href=""><img src="../img/Twitter.png" /></a></li>
+                        <li><a href=""><img src="../img/Instagram.png" /></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- nessa linha pega os icones ( https://fonts.google.com/icons?selected=Material+Icons)
+            <span class="material-icons">
+                home
+            </span>--->
+        </main>
+    </header>
+    <main class="col-100 menu-urls">
+        <div class="header-menu-2">
+            <div class="menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="ViewColaborador.html">Colaboradores</a></li>
+                    <li><a href="../contato.html">Contato</a></li>
+                    <li><a href="../sobre.html">Sobre</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="busca">
+            <input placeholder="Pesquisa" type="text" />
+        </div>
+    </main>
+
+    <div class="tabela">
+        <table id="tabela" class="display" style="width:80%">
+            <thead>
+                <tr>
+                    <th> Cpf </th>
+                    <th> Matricula </th>
+                    <th> Nome Completo </th>
+                    <th> Data da Contratação </th>
+                    <th> Status </th>
+                    <th> Departamento </th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="botoesCRUD">
+        <a><button onClick="fuiClicado()"> Criar </button></a>
+        <a><button onClick="fuiClicado()"> Atualizar </button></a>
+        <a><button onClick="fuiClicado()"> Deletar </button></a>
+
+    </div>
+
+    <script type="text/javascript" src="../Js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="../Js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../Js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="../Js/slick.min.js"></script>
+    <script type="text/javascript" src="../Js/main.js"></script>
+
+</body>
+
+</html>
